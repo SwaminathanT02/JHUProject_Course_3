@@ -5,14 +5,22 @@ This code book is created to explain how the final _TidyDataset_ is created by c
 **Step 1**
 The existing raw data is imported into R and column names are denoted accordingly.
 
-* ActivityLabels <- "activity_labels.txt" : ColumnNames <- "Label", "Activity" : Based on 6 activities and corresponding labels.
-* Features <- "features.txt" : ColumnNames <- ID", "Function" : List of Features (Correspond to X train and test).
-* SubjectTest <- "./test/subject_test.txt"" : ColumnNames <- "Subject" : Test data of 9 volunteers.
-* XTest <- "./test/X_test.txt" : ColumnNames <- Features$Function : Features for test data.
-* YTest <- "./test/y_test.txt" : ColumnNames <- "Label" : Feature Labels for test data.
-* SubjectTrain <- ""./train/subject_train.txt"" : ColumnNames <- "Subject" : Train data of rest 21 volunteers.
-* XTrain <- "./train/X_train.txt" : ColumnNames <- Features$Function : Features for train data.
-* YTrain <- "./train/y_train.txt" : ColumnNames <- "Label" : Feature Labels for train data.
+* ActivityLabels <- _"activity_labels.txt"_ | ColumnNames <- _"Label", "Activity"_ 
+Based on 6 activities and corresponding labels.
+* Features <- _"features.txt"_ | ColumnNames <- _"ID", "Function" _
+List of Features (Correspond to X train and test).
+* SubjectTest <- _"./test/subject_test.txt"_ | ColumnNames <- _"Subject"_
+Test data of 9 volunteers.
+* XTest <- _"./test/X_test.txt"_ | ColumnNames <- _Features$Function_
+Features for test data.
+* YTest <- _"./test/y_test.txt"_ | ColumnNames <- _"Label"_
+Feature Labels for test data.
+* SubjectTrain <- _"./train/subject_train.txt"_ | ColumnNames <- _"Subject"_
+Train data of rest 21 volunteers.
+* XTrain <- _"./train/X_train.txt"_ | ColumnNames <- _Features$Function_
+Features for train data.
+* YTrain <- _"./train/y_train.txt"_ | ColumnNames <- _"Label"_
+Feature Labels for train data.
 
 **Step 2**
 Binding the training and the test datasets.

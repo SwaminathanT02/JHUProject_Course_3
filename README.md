@@ -7,7 +7,7 @@ This repository contains the course project created by SwaminathanT02 for Gettin
 
 **Contents**
 The contents of the repository include(excluding README.md):
-1. _run_analysis.R_ : This program uses the dataset provided above to provide an ordered and tidy single-file dataset using the existing data. It does the following operations
+1. _run_analysis.R_ : This program uses the dataset provided above to provide an ordered and tidy single-file dataset using the existing data. It does the following operations:
 * Merges the training and the test sets to create one data set.
 * Extracts only the measurements on the mean and standard deviation for each measurement.
 * Uses descriptive activity names to name the activities in the data set
