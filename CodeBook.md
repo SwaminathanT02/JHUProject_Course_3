@@ -24,22 +24,22 @@ The existing raw data is imported into R and column names are denoted accordingl
 
 **Step 2**
 Binding the training and the test datasets.
-X <- Row Binding XTrain, XTest
-Y <- Row Binding YTrain, YTest
-Subject <- Row Binding SubjectTrain, SubjectTest
-Data <- Column Binding Subject, Y and X.
+* X <- Row Binding XTrain, XTest
+* Y <- Row Binding YTrain, YTest
+* Subject <- Row Binding SubjectTrain, SubjectTest
+* Data <- Column Binding Subject, Y and X.
 
 **Step 3**
 Extracting measurements on mean and standard deviation only.
-Data <- Only Variables measuring mean and standard deviation
+* Data <- Only Variables measuring mean and standard deviation
 
 **Step 4**
 Use descriptive activity names to name the activities in the data set.
-Variable _Label_ of Data changed according to ActivityLabels.
+* Variable _Label_ of Data changed according to ActivityLabels.
 
 **Step 5**
 Descriptive variable names denoted.
-To lower case and set non-abbreviated forms of variable names.
+* To lower case and set non-abbreviated forms of variable names.
 
 **Step 6**
 A second, independent tidy data set with the average of each variable for each activity and each subject.
