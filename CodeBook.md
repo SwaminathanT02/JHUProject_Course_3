@@ -48,8 +48,8 @@ A second, independent tidy data set with the average of each variable for each a
 
 ## Variable Description
 * subject -- An identifier of the subject who carried out the experiment.
-* activity -- Its activity label. 
+* activity -- The activity being performed. 
 * Other Variables -- 
- * Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
- * Triaxial Angular velocity from the gyroscope. 
- * A 561-feature vector with time and frequency domain variables. 
+ 1. Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+ 2. Triaxial Angular velocity from the gyroscope. 
+ 3. A 561-feature vector with time and frequency domain variables. 
