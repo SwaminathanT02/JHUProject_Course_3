@@ -1,4 +1,4 @@
-#####Course Project : Getting And Cleaning Data
+##Course Project : Getting And Cleaning Data
 
 This repository contains the course project created by SwaminathanT02 for Getting And Cleaning Data.
 
