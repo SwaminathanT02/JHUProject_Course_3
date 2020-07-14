@@ -6,21 +6,21 @@ This code book is created to explain how the final _TidyDataset_ is created by c
 The existing raw data is imported into R and column names are denoted accordingly.
 
 * ActivityLabels <- _"activity_labels.txt"_ | ColumnNames <- _"Label", "Activity"_ 
-Based on 6 activities and corresponding labels.
+ | Based on 6 activities and corresponding labels.
 * Features <- _"features.txt"_ | ColumnNames <- _"ID", "Function" _
-List of Features (Correspond to X train and test).
+ | List of Features (Correspond to X train and test).
 * SubjectTest <- _"./test/subject_test.txt"_ | ColumnNames <- _"Subject"_
-Test data of 9 volunteers.
+ | Test data of 9 volunteers.
 * XTest <- _"./test/X_test.txt"_ | ColumnNames <- _Features$Function_
-Features for test data.
+ | Features for test data.
 * YTest <- _"./test/y_test.txt"_ | ColumnNames <- _"Label"_
-Feature Labels for test data.
+ | Feature Labels for test data.
 * SubjectTrain <- _"./train/subject_train.txt"_ | ColumnNames <- _"Subject"_
-Train data of rest 21 volunteers.
+ | Train data of rest 21 volunteers.
 * XTrain <- _"./train/X_train.txt"_ | ColumnNames <- _Features$Function_
-Features for train data.
+ | Features for train data.
 * YTrain <- _"./train/y_train.txt"_ | ColumnNames <- _"Label"_
-Feature Labels for train data.
+ | Feature Labels for train data.
 
 **Step 2**
 Binding the training and the test datasets.
