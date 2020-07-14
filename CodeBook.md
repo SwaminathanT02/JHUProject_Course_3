@@ -45,3 +45,11 @@ Descriptive variable names denoted.
 A second, independent tidy data set with the average of each variable for each activity and each subject.
 * TidyDataset is created by taking the means of each variable for corresponding _activity_ and _subject_.
 * TidyDataset is exported as TidyDataset.txt
+
+## Variable Description
+* subject -- An identifier of the subject who carried out the experiment.
+* activity -- Its activity label. 
+* Other Variables -- 
+ * Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+ * Triaxial Angular velocity from the gyroscope. 
+ * A 561-feature vector with time and frequency domain variables. 
